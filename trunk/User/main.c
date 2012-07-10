@@ -11,6 +11,8 @@ void TIM3_Configuration(void);
  
 volatile float current_angle[10] = {0,0,0,0,0,0,0,0,0,0}; // +/- 90 degrees, use floats for fractional
 volatile float delta_angle[10]={0,0,0,0,0,0,0,0,0};
+volatile float init_angle[10]= {50,-2,0,10,-15,0,10,-60,45,0};
+
 u32 left_step[10]={0,0,0,0,0,0,0,0,0};
 
  
@@ -100,22 +102,23 @@ void TIM5_IRQHandler(void)
   }
 }
 
-void delay_halfsecond(u16 n)
+void delay_quartersecond(u16 n)
 {
 	u16 i;
 	for(i=0;i<n;i++)
-		delay_ms(500);
+		delay_ms(250);
 }
 
 void smooth(int channel, volatile float target, u32 lefttime)
 {
-		delta_angle[channel]=(target-current_angle[channel])/(lefttime/20);
+		delta_angle[channel]=(target+init_angle[channel]-current_angle[channel])/(lefttime/20);
 		left_step[channel]=	(lefttime/20);	
 }
+//
 void rough(int channel, volatile float target)
 {
 	left_step[channel]=0;
-	current_angle[channel]=target;
+	current_angle[channel]=target+init_angle[channel];
 }
 
 void test()
@@ -136,16 +139,186 @@ void test()
  
 void standsteady()
 {
-	current_angle[0]=0;
-	current_angle[1]=0;
-	current_angle[2]=0;
-	current_angle[3]=0;
-	current_angle[4]=0;
-	current_angle[5]=0;
-	current_angle[6]=0;
-	current_angle[7]=0;
-	current_angle[8]=0;
-	current_angle[9]=45;
+	rough(0,0);
+	rough(1,0);
+	rough(2,0);
+	rough(3,0);
+	rough(4,-5);
+	rough(5,5);
+	rough(6,5);
+	rough(7,-5);
+	rough(9,0);
+	rough(8,0);
+
+}
+
+void forward()
+{
+	//while(1)
+	{
+		rough(7,20);
+		rough(6,-20);
+		smooth(0,30,500);
+
+		delay_quartersecond(1);
+		smooth(6, -70,500);
+		smooth(4, -40,500);
+
+		delay_quartersecond(1);
+
+		smooth(7,28,500);
+		smooth(5,-30,500);
+
+
+		smooth(0,0,500);
+
+		smooth(9,-20,500);
+
+		delay_quartersecond(2);
+
+
+		delay_quartersecond(5);
+		//onstep
+		smooth(1,-18,500);
+		smooth(0,-5,500);
+		//Gravity Point Swap
+
+		delay_quartersecond(2);
+
+		smooth(4,-30,1000);
+		smooth(6,-20,1000);
+
+
+		delay_quartersecond(2);
+		rough(1,-30);
+		smooth(4,0,1000);
+		smooth(7,70,1000);
+		smooth(8,20,500);
+		smooth(5,30,1000);
+		delay_quartersecond(2);
+		smooth(4,20,1000);
+		smooth(6,-10,1000);
+		smooth(3,10,1000);
+
+		delay_quartersecond(4);
+		smooth(1,0,1000);
+		smooth(0,10,1000);
+		
+
+		delay_quartersecond(3);
+
+
+
+		//smooth(4,-20,500);
+		//smooth(6,-10,500)
+
+
+
+		//Gravity Point Centered
+
+		//smooth(7,70,500);
+		//smooth(5,40,500);
+
+		//smooth(4,10,500);
+		//smooth(6,-12,500);
+
+
+
+
+	//	smooth(2,20,500);
+
+
+		/*delay_quartersecond(5);
+		smooth(1,15,500);
+		smooth(0,20,500);
+	
+		delay_quartersecond(2);
+
+		rough(0,0);
+	
+	
+		smooth(6,-20,1000);
+		smooth(4,-30,1000);
+		delay_quartersecond(2);
+
+		smooth(8,25,500);
+
+		delay_quartersecond(2);
+
+		smooth(1,-5,1000);
+		smooth(0,-5,1000);
+
+		smooth(8,10,1000);
+		smooth(2,-10,1000);
+		smooth(3,10,1000);
+		smooth(5,20,1000);
+		smooth(3,25,1000);
+
+		delay_quartersecond(4);
+
+		smooth(0,-18,1000);
+		smooth(1,-10,1000);
+
+		delay_quartersecond(4);
+
+		smooth(7,4
+		0,1000);
+
+		smooth(3,-10,1000);
+		smooth(2,-15,1000);
+		smooth(4,-25,1000);
+		smooth(9,-20,1000);
+
+
+		delay_quartersecond(4);
+
+		smooth(0,0,1000);
+		smooth(1,0,1000);
+
+		smooth(7,20,1000);
+
+		delay_quartersecond(4);
+
+		
+
+		
+		//smooth(9,10,800);
+		//smooth(8,10,800);
+
+		//smooth(5,10,1000);
+		//smooth(7,-10,1000);
+	
+	
+		//delay_quartersecond(6);
+	
+		//smooth(1,0,250);
+		//smooth(0,0,250);
+
+		//delay_quartersecond(1);
+		//smooth(1,-8,250);
+		//smooth(0,-10,250);
+		//delay_quartersecond(1);
+
+		//smooth(4,-30,1000);
+		//smooth(6,30,1000);
+		//smooth(5,-30,1000);
+		//smooth(7,-30,1000);
+
+	
+		//smooth(9,10,800);
+	
+		//delay_quartersecond(4);
+		//smooth(5,25,300);
+		//smooth(7,25,300);
+	
+		//delay_halfsecond(1);
+	
+	
+	   	//smooth(5,10,800);
+		//smooth(7,10,800);
+		*/
+	}
+
 }
 
 
@@ -158,13 +331,8 @@ int main(void)
   NVIC_Configuration();
   TIM3_Configuration();
   standsteady();
-	
-	
-	//rough(1,20);	  
-	//smooth(1,40,2000);
-	//smooth(3,40,2000);
-	//smooth(5,40,2000);
-	//smooth(7,40,2000);
+  delay_quartersecond(8);  
+  forward();
 
   while(1)
   {
