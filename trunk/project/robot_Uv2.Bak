@@ -16,6 +16,7 @@ File 3,1,<..\libraries\src\misc.c><misc.c>
 File 3,1,<..\libraries\src\stm32f10x_gpio.c><stm32f10x_gpio.c>
 File 3,1,<..\libraries\src\stm32f10x_tim.c><stm32f10x_tim.c>
 File 3,1,<..\libraries\src\stm32f10x_rcc.c><stm32f10x_rcc.c>
+File 3,1,<..\libraries\src\delay.c><delay.c>
 File 4,2,<..\Startup\startup_stm32f10x_hd.s><startup_stm32f10x_hd.s>
 
 

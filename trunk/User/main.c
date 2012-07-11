@@ -166,158 +166,113 @@ void forward()
 
 		delay_quartersecond(1);
 
-		smooth(7,28,500);
+		smooth(7,20,500);
 		smooth(5,-30,500);
 
 
 		smooth(0,0,500);
 
-		smooth(9,-20,500);
+		rough(9,-20);
+		//初始半步
 
-		delay_quartersecond(2);
+
+		delay_quartersecond(8);
 
 
-		delay_quartersecond(5);
-		//onstep
-		smooth(1,-18,500);
-		smooth(0,-5,500);
-		//Gravity Point Swap
+		rough(1,-5);
 
-		delay_quartersecond(2);
-
-		smooth(4,-30,1000);
-		smooth(6,-20,1000);
+		smooth(0,-15,700);
+		//重心左偏
 
 
 		delay_quartersecond(2);
-		smooth(1,-15,500);
-		smooth(4,0,1000);
-		smooth(7,70,1000);
-		smooth(8,20,500);
-		smooth(5,30,1000);
-		delay_quartersecond(2);
-		smooth(1,0,500);
-		smooth(4,20,1000);
-		smooth(6,-10,1000);
-		smooth(3,10,1000);
-
-		delay_quartersecond(4);
-		smooth(1,0,1000);
-		smooth(0,10,1000);
-		
-
-		delay_quartersecond(3);
 
 
+		rough(5,80);
+		rough(3,30);
+		//蹬腿
 
-		//smooth(4,-20,500);
-		//smooth(6,-10,500)
+		rough(9,-20);	
+		rough(8,20);
+		//扭腰
 
+		rough(6,-20);
+		rough(4,-5);
+		rough(2,5);
+		//左腿立直
 
-
-		//Gravity Point Centered
-
-		//smooth(7,70,500);
-		//smooth(5,40,500);
-
-		//smooth(4,10,500);
-		//smooth(6,-12,500);
-
-
-
-
-	//	smooth(2,20,500);
-
-
-		/*delay_quartersecond(5);
-		smooth(1,15,500);
-		smooth(0,20,500);
-	
-		delay_quartersecond(2);
-
-		rough(0,0);
-	
-	
-		smooth(6,-20,1000);
-		smooth(4,-30,1000);
-		delay_quartersecond(2);
-
-		smooth(8,25,500);
-
-		delay_quartersecond(2);
-
-		smooth(1,-5,1000);
-		smooth(0,-5,1000);
-
-		smooth(8,10,1000);
-		smooth(2,-10,1000);
-		smooth(3,10,1000);
-		smooth(5,20,1000);
-		smooth(3,25,1000);
-
-		delay_quartersecond(4);
-
-		smooth(0,-18,1000);
-		smooth(1,-10,1000);
-
-		delay_quartersecond(4);
-
-		smooth(7,4
-		0,1000);
-
-		smooth(3,-10,1000);
-		smooth(2,-15,1000);
-		smooth(4,-25,1000);
-		smooth(9,-20,1000);
-
-
-		delay_quartersecond(4);
-
-		smooth(0,0,1000);
-		smooth(1,0,1000);
-
-		smooth(7,20,1000);
-
-		delay_quartersecond(4);
 
 		
 
+		delay_quartersecond(1);
+		rough(7,60);
+		delay_quartersecond(1);
+		rough(3,-20);
+		rough(9,-20);
+		rough(5,30);
+		delay_quartersecond(1);
+		rough(4,20);
+
+ 		//rough(7,30);
+		rough(3,-0);
+		delay_quartersecond(2);
+		smooth(0,10,500);
+
+		//第二步
+		delay_quartersecond(8);
+
+
+		//重心左偏
+
+		rough(1,15);
+		smooth(0,0,700);
+		delay_quartersecond(2);
+
+   		rough(7,-20);
+		rough(5,-5);
+		rough(9,-10);
+		rough(0,-5);
+
+		delay_quartersecond(1);
+
+		rough(4,-80);
+		rough(2,-30);
+		rough(9,-5);
+		rough(8,10);
+
+
+		//蹬腿
+
+		/*delay_quartersecond(4);
+
+		rough(8,-20);	
+		rough(9,20);
+		//扭腰
+
+
+		rough(3,5);
+		//左腿立直
+
+
 		
-		//smooth(9,10,800);
-		//smooth(8,10,800);
 
-		//smooth(5,10,1000);
-		//smooth(7,-10,1000);
-	
-	
-		//delay_quartersecond(6);
-	
-		//smooth(1,0,250);
-		//smooth(0,0,250);
+		delay_quartersecond(1);
+		rough(6,60);
+		delay_quartersecond(1);
+		rough(2,-20);
+		rough(8,-20);
+		rough(4,30);
+		delay_quartersecond(1);
+		rough(5,20);
 
-		//delay_quartersecond(1);
-		//smooth(1,-8,250);
-		//smooth(0,-10,250);
-		//delay_quartersecond(1);
+ 		//rough(7,30);
+		rough(2,-0);
+		delay_quartersecond(2);
+		smooth(1,10,500);
 
-		//smooth(4,-30,1000);
-		//smooth(6,30,1000);
-		//smooth(5,-30,1000);
-		//smooth(7,-30,1000);
-
-	
-		//smooth(9,10,800);
-	
-		//delay_quartersecond(4);
-		//smooth(5,25,300);
-		//smooth(7,25,300);
-	
-		//delay_halfsecond(1);
-	
-	
-	   	//smooth(5,10,800);
-		//smooth(7,10,800);
 		*/
+
+
 	}
 
 }
@@ -332,7 +287,7 @@ int main(void)
   NVIC_Configuration();
   TIM3_Configuration();
   standsteady();
-  delay_quartersecond(8);  
+  delay_quartersecond(12);  
   forward();
 
   while(1)

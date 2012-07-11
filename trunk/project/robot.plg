@@ -10,877 +10,17 @@ Project File Date:  07/06/2012
 Build target 'Target 1'
 compiling main.c...
 linking...
-Program Size: Code=9908 RO-data=336 RW-data=84 ZI-data=1756  
+Program Size: Code=10292 RO-data=336 RW-data=84 ZI-data=1756  
 "robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=9928 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=9932 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=9932 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-linking...
-Program Size: Code=9932 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=9948 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Failed!
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=9948 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=9984 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=9984 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=9984 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=9988 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10004 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10024 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10024 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10028 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10028 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10044 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10040 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10052 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10040 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10040 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10048 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10044 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10052 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10056 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10056 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10056 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-linking...
-Program Size: Code=10056 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10056 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10096 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10096 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10128 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10124 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10160 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10160 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10160 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10152 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10160 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10060 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10112 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10088 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10084 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10084 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10104 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10104 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10080 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10084 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-linking...
-Program Size: Code=10084 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10080 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10092 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Cannot Write to RAM for Flash Algorithms !
-Verify Failed!
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10092 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10092 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10092 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10124 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10156 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10180 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10188 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10188 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10188 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10200 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10188 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10192 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10192 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10212 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10216 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-linking...
-Program Size: Code=10216 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10216 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10220 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10228 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-compiling main.c...
-..\User\main.c - 0 Error(s), 0 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10172 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10156 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10104 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10120 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-linking...
-Program Size: Code=10120 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10120 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10120 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10116 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10116 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10116 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10116 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Failed!
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10128 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10168 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10200 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10196 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10196 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10196 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10208 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10220 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10220 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10228 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10228 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10228 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Build target 'Target 1'
-linking...
-Program Size: Code=10228 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10224 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Build target 'Target 1'
-linking...
-Program Size: Code=10224 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
 Build target 'Target 1'
 compiling main.c...
 linking...
-Program Size: Code=10248 RO-data=336 RW-data=84 ZI-data=1756  
+Program Size: Code=10292 RO-data=336 RW-data=84 ZI-data=1756  
 "robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
 Build target 'Target 1'
 compiling main.c...
 linking...
-Program Size: Code=10248 RO-data=336 RW-data=84 ZI-data=1756  
+Program Size: Code=10280 RO-data=336 RW-data=84 ZI-data=1756  
 "robot.axf" - 0 Error(s), 0 Warning(s).
 Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
 Erase Done.
@@ -888,25 +28,12 @@ Programming Done.
 Verify OK.
 Build target 'Target 1'
 compiling main.c...
-linking...
-Program Size: Code=10252 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
 linking...
-Program Size: Code=10252 RO-data=336 RW-data=84 ZI-data=1756  
+Program Size: Code=10276 RO-data=336 RW-data=84 ZI-data=1756  
 "robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
 Build target 'Target 1'
-compiling main.c...
 linking...
-Program Size: Code=10252 RO-data=336 RW-data=84 ZI-data=1756  
+Program Size: Code=10276 RO-data=336 RW-data=84 ZI-data=1756  
 "robot.axf" - 0 Error(s), 0 Warning(s).
 Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
 Erase Done.
@@ -924,7 +51,7 @@ Verify OK.
 Build target 'Target 1'
 compiling main.c...
 linking...
-Program Size: Code=10264 RO-data=336 RW-data=84 ZI-data=1756  
+Program Size: Code=10276 RO-data=336 RW-data=84 ZI-data=1756  
 "robot.axf" - 0 Error(s), 0 Warning(s).
 Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
 Erase Done.
@@ -933,15 +60,7 @@ Verify OK.
 Build target 'Target 1'
 compiling main.c...
 linking...
-Program Size: Code=10252 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-linking...
-Program Size: Code=10252 RO-data=336 RW-data=84 ZI-data=1756  
+Program Size: Code=10276 RO-data=336 RW-data=84 ZI-data=1756  
 "robot.axf" - 0 Error(s), 0 Warning(s).
 Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
 Erase Done.
@@ -950,7 +69,7 @@ Verify OK.
 Build target 'Target 1'
 compiling main.c...
 linking...
-Program Size: Code=10256 RO-data=336 RW-data=84 ZI-data=1756  
+Program Size: Code=10276 RO-data=336 RW-data=84 ZI-data=1756  
 "robot.axf" - 0 Error(s), 0 Warning(s).
 Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
 Erase Done.
@@ -959,79 +78,7 @@ Verify OK.
 Build target 'Target 1'
 compiling main.c...
 linking...
-Program Size: Code=10252 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10256 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10252 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10264 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10252 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10260 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10260 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10272 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10272 RO-data=336 RW-data=84 ZI-data=1756  
+Program Size: Code=10276 RO-data=336 RW-data=84 ZI-data=1756  
 "robot.axf" - 0 Error(s), 0 Warning(s).
 Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
 Erase Done.
@@ -1049,25 +96,7 @@ Verify OK.
 Build target 'Target 1'
 compiling main.c...
 linking...
-Program Size: Code=10272 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10272 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-compiling main.c...
-linking...
-Program Size: Code=10272 RO-data=336 RW-data=84 ZI-data=1756  
+Program Size: Code=10284 RO-data=336 RW-data=84 ZI-data=1756  
 "robot.axf" - 0 Error(s), 0 Warning(s).
 Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
 Erase Done.
@@ -1092,8 +121,1015 @@ Erase Done.
 Programming Done.
 Verify OK.
 Build target 'Target 1'
+compiling main.c...
 linking...
 Program Size: Code=10280 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10280 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10272 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10280 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10280 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10280 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10280 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10280 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Failed!
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10184 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10172 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10184 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10184 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10184 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=10184 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+linking...
+Program Size: Code=10184 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10184 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10164 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10168 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10168 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10164 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10160 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10164 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+linking...
+Program Size: Code=10164 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10164 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+linking...
+Program Size: Code=10164 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10164 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10160 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10164 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10176 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10176 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10176 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10172 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10172 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10176 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10172 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10152 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10144 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10164 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10160 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10160 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10168 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10188 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10204 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10204 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10200 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=10200 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=10200 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=10200 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=10200 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=10200 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=10200 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=10200 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=10200 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=10200 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10204 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10204 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10212 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10212 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10204 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10204 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10204 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10216 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+..\User\main.c(204): warning:  #223-D: function "smootH" declared implicitly
+linking...
+robot.axf: Error: L6218E: Undefined symbol smootH (referred from main.o).
+Target not created
+Build target 'Target 1'
+compiling main.c...
+..\User\main.c(204): warning:  #223-D: function "smootH" declared implicitly
+linking...
+robot.axf: Error: L6218E: Undefined symbol smootH (referred from main.o).
+Target not created
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+_____^
+*** error 56: cant open file
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10228 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10228 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10228 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10208 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10176 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Contents missmatch at: 08000360H  (Flash=00H  Required=60H) !
+Contents missmatch at: 08000361H  (Flash=00H  Required=B1H) !
+Contents missmatch at: 08000362H  (Flash=00H  Required=9DH) !
+Contents missmatch at: 08000363H  (Flash=00H  Required=4AH) !
+Contents missmatch at: 08000364H  (Flash=00H  Required=11H) !
+Contents missmatch at: 08000365H  (Flash=00H  Required=69H) !
+Contents missmatch at: 08000366H  (Flash=00H  Required=9DH) !
+Contents missmatch at: 08000367H  (Flash=00H  Required=4AH) !
+Contents missmatch at: 08000368H  (Flash=00H  Required=10H) !
+Contents missmatch at: 08000369H  (Flash=00H  Required=69H) !
+Contents missmatch at: 0800036AH  (Flash=00H  Required=01H) !
+Contents missmatch at: 0800036BH  (Flash=00H  Required=F0H) !
+Contents missmatch at: 0800036CH  (Flash=00H  Required=2FH) !
+Contents missmatch at: 0800036DH  (Flash=00H  Required=FFH) !
+Contents missmatch at: 0800036EH  (Flash=00H  Required=9BH) !
+Contents missmatch at: 0800036FH  (Flash=00H  Required=49H) !
+Contents missmatch at: 08000370H  (Flash=00H  Required=08H) !
+Contents missmatch at: 08000371H  (Flash=00H  Required=61H) !
+Contents missmatch at: 08000372H  (Flash=00H  Required=98H) !
+Contents missmatch at: 08000373H  (Flash=00H  Required=48H) !
+Contents missmatch at: 08000375H  (Flash=00H  Required=69H) !
+Contents missmatch at: 08000376H  (Flash=00H  Required=40H) !
+Contents missmatch at: 08000377H  (Flash=00H  Required=1EH) !
+Contents missmatch at: 08000378H  (Flash=00H  Required=96H) !
+Contents missmatch at: 08000379H  (Flash=00H  Required=49H) !
+Contents missmatch at: 0800037AH  (Flash=00H  Required=08H) !
+Contents missmatch at: 0800037BH  (Flash=00H  Required=61H) !
+Contents missmatch at: 0800037CH  (Flash=00H  Required=95H) !
+Contents missmatch at: 0800037DH  (Flash=00H  Required=48H) !
+Contents missmatch at: 0800037EH  (Flash=00H  Required=80H) !
+Contents missmatch at: 0800037FH  (Flash=00H  Required=69H) !
+Contents missmatch at: 08000380H  (Flash=00H  Required=60H) !
+Contents missmatch at: 08000381H  (Flash=00H  Required=B1H) !
+Contents missmatch at: 08000382H  (Flash=00H  Required=95H) !
+Contents missmatch at: 08000383H  (Flash=00H  Required=4AH) !
+Contents missmatch at: 08000384H  (Flash=00H  Required=91H) !
+Contents missmatch at: 08000385H  (Flash=00H  Required=69H) !
+Contents missmatch at: 08000386H  (Flash=00H  Required=95H) !
+Contents missmatch at: 08000387H  (Flash=00H  Required=4AH) !
+Contents missmatch at: 08000388H  (Flash=00H  Required=90H) !
+Contents missmatch at: 08000389H  (Flash=00H  Required=69H) !
+Contents missmatch at: 0800038AH  (Flash=00H  Required=01H) !
+Contents missmatch at: 0800038BH  (Flash=00H  Required=F0H) !
+Contents missmatch at: 0800038CH  (Flash=00H  Required=1FH) !
+Contents missmatch at: 0800038DH  (Flash=00H  Required=FFH) !
+Contents missmatch at: 0800038EH  (Flash=00H  Required=93H) !
+Contents missmatch at: 0800038FH  (Flash=00H  Required=49H) !
+Contents missmatch at: 08000390H  (Flash=00H  Required=88H) !
+Contents missmatch at: 08000391H  (Flash=00H  Required=61H) !
+Contents missmatch at: 08000392H  (Flash=00H  Required=90H) !
+Contents missmatch at: 08000393H  (Flash=00H  Required=48H) !
+Contents missmatch at: 08000394H  (Flash=00H  Required=80H) !
+Contents missmatch at: 08000395H  (Flash=00H  Required=69H) !
+Contents missmatch at: 08000396H  (Flash=00H  Required=40H) !
+Contents missmatch at: 08000397H  (Flash=00H  Required=1EH) !
+Contents missmatch at: 08000398H  (Flash=00H  Required=8EH) !
+Contents missmatch at: 08000399H  (Flash=00H  Required=49H) !
+Contents missmatch at: 0800039AH  (Flash=00H  Required=88H) !
+Contents missmatch at: 0800039BH  (Flash=00H  Required=61H) !
+Contents missmatch at: 0800039CH  (Flash=00H  Required=8FH) !
+Contents missmatch at: 0800039DH  (Flash=00H  Required=49H) !
+Contents missmatch at: 0800039EH  (Flash=00H  Required=08H) !
+Contents missmatch at: 0800039FH  (Flash=00H  Required=68H) !
+Contents missmatch at: 080003A0H  (Flash=00H  Required=8FH) !
+Contents missmatch at: 080003A1H  (Flash=00H  Required=49H) !
+Contents missmatch at: 080003A2H  (Flash=00H  Required=01H) !
+Contents missmatch at: 080003A3H  (Flash=00H  Required=F0H) !
+Contents missmatch at: 080003A4H  (Flash=00H  Required=13H) !
+Contents missmatch at: 080003A5H  (Flash=00H  Required=FFH) !
+Contents missmatch at: 080003A6H  (Flash=00H  Required=06H) !
+Contents missmatch at: 080003A7H  (Flash=00H  Required=46H) !
+Contents missmatch at: 080003A8H  (Flash=00H  Required=8EH) !
+Contents missmatch at: 080003A9H  (Flash=00H  Required=49H) !
+Contents missmatch at: 080003AAH  (Flash=00H  Required=02H) !
+Contents missmatch at: 080003ABH  (Flash=00H  Required=F0H) !
+Contents missmatch at: 080003ACH  (Flash=00H  Required=D7H) !
+Contents missmatch at: 080003ADH  (Flash=00H  Required=F8H) !
+Contents missmatch at: 080003AEH  (Flash=00H  Required=05H) !
+Contents missmatch at: 080003AFH  (Flash=00H  Required=46H) !
+Contents missmatch at: 080003B0H  (Flash=00H  Required=8DH) !
+Contents missmatch at: 080003B1H  (Flash=00H  Required=49H) !
+Contents missmatch at: 080003B2H  (Flash=00H  Required=01H) !
+Contents missmatch at: 080003B3H  (Flash=00H  Required=F0H) !
+Contents missmatch at: 080003B4H  (Flash=00H  Required=0BH) !
+Contents missmatch at: 080003B5H  (Flash=00H  Required=FFH) !
+Contents missmatch at: 080003B6H  (Flash=00H  Required=04H) !
+Contents missmatch at: 080003B7H  (Flash=00H  Required=46H) !
+Contents missmatch at: 080003B8H  (Flash=00H  Required=02H) !
+Contents missmatch at: 080003B9H  (Flash=00H  Required=F0H) !
+Contents missmatch at: 080003BAH  (Flash=00H  Required=86H) !
+Contents missmatch at: 080003BBH  (Flash=00H  Required=F8H) !
+Contents missmatch at: 080003BCH  (Flash=00H  Required=8BH) !
+Contents missmatch at: 080003BDH  (Flash=00H  Required=49H) !
+Contents missmatch at: 080003BEH  (Flash=00H  Required=34H) !
+Contents missmatch at: 080003BFH  (Flash=00H  Required=31H) !
+Contents missmatch at: 080003C0H  (Flash=00H  Required=08H) !
+Contents missmatch at: 080003C1H  (Flash=00H  Required=80H) !
+Contents missmatch at: 080003C2H  (Flash=00H  Required=86H) !
+Contents missmatch at: 080003C3H  (Flash=00H  Required=49H) !
+Contents missmatch at: 080003C4H  (Flash=00H  Required=88H) !
+Too many errors to display !
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10184 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Failed!
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+linking...
+Program Size: Code=10184 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10188 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10176 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10184 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10172 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+linking...
+Program Size: Code=10172 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10152 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10160 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10176 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10176 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Failed!
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+linking...
+Program Size: Code=10176 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10176 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10184 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10180 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10176 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10180 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10168 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10196 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10224 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10224 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10224 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10252 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10252 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10252 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10252 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10248 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10252 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+linking...
+Program Size: Code=10252 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10252 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Cannot Write to RAM for Flash Algorithms !
+Verify Failed!
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10232 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10252 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10256 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10240 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10228 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10240 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10264 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10232 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10264 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10248 RO-data=336 RW-data=84 ZI-data=1756  
 "robot.axf" - 0 Error(s), 0 Warning(s).
 Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
 Erase Done.
@@ -1108,18 +1144,6 @@ Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AX
 Erase Done.
 Programming Done.
 Verify OK.
-Build target 'Target 1'
-linking...
-Program Size: Code=10272 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
-Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
-Erase Done.
-Programming Done.
-Verify OK.
-Build target 'Target 1'
-linking...
-Program Size: Code=10272 RO-data=336 RW-data=84 ZI-data=1756  
-"robot.axf" - 0 Error(s), 0 Warning(s).
 Build target 'Target 1'
 compiling main.c...
 linking...
@@ -1150,7 +1174,52 @@ Verify OK.
 Build target 'Target 1'
 compiling main.c...
 linking...
-Program Size: Code=10272 RO-data=336 RW-data=84 ZI-data=1756  
+Program Size: Code=10276 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10276 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10276 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10284 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10284 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10276 RO-data=336 RW-data=84 ZI-data=1756  
 "robot.axf" - 0 Error(s), 0 Warning(s).
 Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
 Erase Done.
@@ -1167,19 +1236,786 @@ Programming Done.
 Verify OK.
 Build target 'Target 1'
 compiling main.c...
-..\User\main.c(199): error:  #140: too many arguments in function call
+linking...
+Program Size: Code=10276 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10236 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10244 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10244 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10248 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10248 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10244 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10236 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10232 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10232 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10228 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10228 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10232 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10232 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10232 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10228 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10228 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=10228 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10228 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10224 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10228 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10224 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10228 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10228 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10228 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10224 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10232 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10232 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+..\User\main.c(217): error:  #29: expected an expression
+..\User\main.c(227): warning:  #12-D: parsing restarts here after previous syntax error
+..\User\main.c(227): error:  #65: expected a ";"
 Target not created
 Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
 _____^
 *** error 56: cant open file
 Build target 'Target 1'
 compiling main.c...
-..\User\main.c(199): error:  #140: too many arguments in function call
-Target not created
+linking...
+Program Size: Code=10280 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10280 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+linking...
+Program Size: Code=10280 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=10280 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
 Build target 'Target 1'
 compiling main.c...
 linking...
 Program Size: Code=10292 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+linking...
+Program Size: Code=10292 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10292 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10296 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10288 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10288 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+linking...
+Program Size: Code=10288 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10132 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10184 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10184 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10188 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10184 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10208 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10200 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10208 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=10208 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10208 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10224 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10224 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10220 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10220 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10224 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10224 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10228 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10228 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10244 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10256 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10256 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10260 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10256 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Failed!
+USB Communication Failure
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10296 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=10296 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10296 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10252 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10280 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10292 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10304 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10304 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10328 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10332 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+linking...
+Program Size: Code=10332 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10328 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10328 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10332 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10328 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10328 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10320 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10316 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10324 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10324 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10332 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10332 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10336 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10332 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10324 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10336 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10344 RO-data=336 RW-data=84 ZI-data=1756  
+"robot.axf" - 0 Error(s), 0 Warning(s).
+Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'Target 1'
+compiling main.c...
+linking...
+Program Size: Code=10344 RO-data=336 RW-data=84 ZI-data=1756  
 "robot.axf" - 0 Error(s), 0 Warning(s).
 Load "D:\\My Documents\\Documents\\cortexm3\\servo-controller\\project\\robot.AXF" 
 Erase Done.
