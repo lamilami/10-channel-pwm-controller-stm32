@@ -190,12 +190,13 @@ void forward()
 
 
 		delay_quartersecond(2);
-		rough(1,-30);
+		smooth(1,-15,500);
 		smooth(4,0,1000);
 		smooth(7,70,1000);
 		smooth(8,20,500);
 		smooth(5,30,1000);
 		delay_quartersecond(2);
+		smooth(1,0,500);
 		smooth(4,20,1000);
 		smooth(6,-10,1000);
 		smooth(3,10,1000);
