@@ -235,37 +235,47 @@ void forward()
 
 		delay_quartersecond(1);
 
-		rough(4,-80);
-		rough(2,-30);
+		rough(4,-85);
+		rough(2,0);
 		rough(9,-5);
 		rough(8,10);
 
 
 		//µ≈Õ»
+		//delay_quartersecond(2);
+		rough(9,0);
+		smooth(6,-45,1000);
+		rough(7,0);	
+		rough(8,10);
+
 		delay_quartersecond(2);
-		rough(9,-20);
-		rough(6,-50);
 
+		rough(5,5);
+		rough(7,0);
 
-		delay_quartersecond(1);
-
-		rough(5,0);
-
-
-		delay_quartersecond(1);
+		//delay_quartersecond(1);
 
 		rough(1,9);
 
-		rough(0,2);
+		rough(0,5);
 
 		rough(4,-30);
 		smooth(2,20,500);
-		rough(6,-65);
 		delay_quartersecond(2);
+		smooth(3,25,500);
+		delay_quartersecond(4);
+		//rough(5,-20);
+	/*	rough(5,15);
+		smooth(2,-10,600);
+		smooth(0,-15,600);
+		smooth(1,-10,600);
+		delay_quartersecond(8);
+		rough(6,-20);
+		rough(7,20);
+		rough(4,-5);
+		rough(2,5);
 
-		rough(5,-20);
-		rough(7,0);
-
+	  */
 
 		/*delay_quartersecond(4);
 
