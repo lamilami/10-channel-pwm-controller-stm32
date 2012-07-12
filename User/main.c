@@ -174,14 +174,12 @@ void forward()
 
 		rough(9,-20);
 		//初始半步
-
-
 		delay_quartersecond(8);
-
-
+		smooth(0,-15,700);
 		rough(1,-5);
 
-		smooth(0,-15,700);
+		
+		//smooth(3,5,500);
 		//重心左偏
 
 
@@ -215,8 +213,9 @@ void forward()
 
  		//rough(7,30);
 		rough(3,-0);
-		delay_quartersecond(2);
-		smooth(0,10,500);
+		delay_quartersecond(1);
+		smooth(0,8,1000);
+		smooth(1,5,1000);
 
 		//第二步
 		delay_quartersecond(8);
@@ -224,12 +223,13 @@ void forward()
 
 		//重心左偏
 
-		rough(1,15);
+	
 		smooth(0,0,700);
+		rough(5,10);
 		delay_quartersecond(2);
 
-   		rough(7,-20);
-		rough(5,-5);
+   		rough(7,40);
+
 		rough(9,-10);
 		rough(0,-5);
 
@@ -242,6 +242,30 @@ void forward()
 
 
 		//蹬腿
+		delay_quartersecond(2);
+		rough(9,-20);
+		rough(6,-50);
+
+
+		delay_quartersecond(1);
+
+		rough(5,0);
+
+
+		delay_quartersecond(1);
+
+		rough(1,9);
+
+		rough(0,2);
+
+		rough(4,-30);
+		smooth(2,20,500);
+		rough(6,-65);
+		delay_quartersecond(2);
+
+		rough(5,-20);
+		rough(7,0);
+
 
 		/*delay_quartersecond(4);
 
