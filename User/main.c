@@ -145,23 +145,100 @@ void standsteady()
 	rough(3,0);
 	rough(4,-5);
 	rough(5,5);
-	rough(6,5);
-	rough(7,-5);
-	rough(9,0);
-	rough(8,0);
+	rough(6,15);
+	rough(7,-12);
+	rough(9,-5);
+	rough(8,5);
 
 }
-
-void forward()
+void standsteadyslow()
 {
-	//while(1)
-	{
-		rough(7,20);
-		rough(6,-20);
+	smooth(0,0,1000);
+	smooth(1,0,1000);
+	smooth(2,0,1000);
+	smooth(3,0,1000);
+	smooth(4,-5,1000);
+	smooth(5,5,1000);
+	smooth(6,5,1000);
+	smooth(7,-8,1000);
+	smooth(9,-10,1000);
+	smooth(8,10,1000);
+}
+
+void bend()
+{
+int i = 3;	
+while(i)
+{	
+	i--;
+    smooth(4,30,1500);
+	smooth(5,-30,1500);
+	delay_quartersecond(8);
+	smooth(7,30,500);
+	smooth(6,-30,500);
+	delay_quartersecond(8);
+	standsteadyslow();
+	delay_quartersecond(8);
+}
+}
+void show()
+{
+	smooth(1,10,500);
+	smooth(0,-15,500);
+	delay_quartersecond(8);
+	smooth(4,-80,1500);
+	smooth(6,-60,1500);
+	delay_quartersecond(2);
+	rough(7,0);
+	delay_quartersecond(2);
+	rough(5,15);
+	rough(3,-5);
+
+	rough(8,20);
+	rough(9,-20);
+	delay_quartersecond(1);
+	smooth(2,-30,1500);
+	smooth(6,-70,1500);
+	delay_quartersecond(8);
+	smooth(0,25,1000);
+
+	delay_quartersecond(8);
+	smooth(0,-10,1000);
+	delay_quartersecond(8);
+	smooth(2,0,1000);
+	delay_quartersecond(8);	
+	smooth(2,-30,1000);
+	delay_quartersecond(8);
+}
+void forward()
+{/*	rough(0,30);
+    delay_quartersecond(12);
+	rough(1,30);
+    delay_quartersecond(12);
+	rough(2,30);
+    delay_quartersecond(12);
+	rough(3,30);
+    delay_quartersecond(12);
+	rough(4,30);
+    delay_quartersecond(12);
+	rough(5,30);
+    delay_quartersecond(12);
+	rough(6,30);
+    delay_quartersecond(12);
+	rough(7,30);
+    delay_quartersecond(12);
+	rough(8,30);
+    delay_quartersecond(12);
+	rough(9,30);
+    delay_quartersecond(12);
+*/
+	//
+		rough(7,15);
+		rough(6,-15);
 		smooth(0,30,500);
 
 		delay_quartersecond(1);
-		smooth(6, -70,500);
+		rough(6, -80);
 		smooth(4, -40,500);
 
 		delay_quartersecond(1);
@@ -172,7 +249,8 @@ void forward()
 
 		smooth(0,0,500);
 
-		rough(9,-20);
+		rough(9,-10);
+		rough(8,10);
 		//³õÊ¼°ë²½
 		delay_quartersecond(8);
 		smooth(0,-15,700);
@@ -182,7 +260,8 @@ void forward()
 		//smooth(3,5,500);
 		//ÖØÐÄ×óÆ«
 
-
+		while(1)
+		{
 		delay_quartersecond(2);
 
 
@@ -190,8 +269,8 @@ void forward()
 		rough(3,30);
 		//µÅÍÈ
 
-		rough(9,-20);	
-		rough(8,20);
+		rough(9,-10);	
+		rough(8,10);
 		//Å¤Ñü
 
 		rough(6,-20);
@@ -203,10 +282,10 @@ void forward()
 		
 
 		delay_quartersecond(1);
-		rough(7,60);
+		rough(7,55);
 		delay_quartersecond(1);
 		rough(3,-20);
-		rough(9,-20);
+		rough(9,-10);
 		rough(5,30);
 		delay_quartersecond(1);
 		rough(4,20);
@@ -229,7 +308,7 @@ void forward()
 		delay_quartersecond(2);
 
    		rough(7,40);
-
+		rough(8,10);
 		rough(9,-10);
 		rough(0,-5);
 
@@ -237,16 +316,17 @@ void forward()
 
 		rough(4,-85);
 		rough(2,0);
-		rough(9,-5);
+		rough(9,-10);
 		rough(8,10);
+		rough(6,-55);
 
 
 		//µÅÍÈ
-		//delay_quartersecond(2);
-		rough(9,0);
-		smooth(6,-45,1000);
+		delay_quartersecond(2);
+		rough(9,-10);
+
 		rough(7,0);	
-		rough(8,10);
+		rough(8,20);
 
 		delay_quartersecond(2);
 
@@ -260,55 +340,22 @@ void forward()
 		rough(0,5);
 
 		rough(4,-30);
-		smooth(2,20,500);
+		smooth(2,10,500);
 		delay_quartersecond(2);
-		smooth(3,25,500);
+		smooth(3,20,500);
 		delay_quartersecond(4);
+
+		smooth(1,-15,700);
+		rough(0,-5);
 		//rough(5,-20);
-	/*	rough(5,15);
-		smooth(2,-10,600);
-		smooth(0,-15,600);
-		smooth(1,-10,600);
-		delay_quartersecond(8);
-		rough(6,-20);
+		delay_quartersecond(12);
 		rough(7,20);
-		rough(4,-5);
-		rough(2,5);
-
-	  */
-
-		/*delay_quartersecond(4);
-
-		rough(8,-20);	
-		rough(9,20);
-		//Å¤Ñü
-
-
-		rough(3,5);
-		//×óÍÈÁ¢Ö±
-
-
-		
-
-		delay_quartersecond(1);
-		rough(6,60);
-		delay_quartersecond(1);
-		rough(2,-20);
-		rough(8,-20);
-		rough(4,30);
-		delay_quartersecond(1);
-		rough(5,20);
-
- 		//rough(7,30);
-		rough(2,-0);
-		delay_quartersecond(2);
-		smooth(1,10,500);
-
-		*/
-
-
-	}
-
+		rough(6,-70);
+		rough(0,-15);
+		rough(1,-5);
+		rough(5,-30);
+		rough(4,-40);
+		 }
 }
 
 
@@ -323,9 +370,10 @@ int main(void)
   standsteady();
   delay_quartersecond(12);  
   forward();
-
-  while(1)
-  {
+//  bend();
+//  show();
+  //while(1)
+  //{
 		/*if(p==3000000)
 		{
 			if(sign)
@@ -341,7 +389,7 @@ int main(void)
 		}
 		p++;
 		*/
-  }
+  //}	  
 }
  
 /**************************************************************************************/
