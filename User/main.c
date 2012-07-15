@@ -121,20 +121,6 @@ void rough(int channel, volatile float target)
 	current_angle[channel]=target+init_angle[channel];
 }
 
-void test()
-{
-	current_angle[0]=10;
-	current_angle[1]=-10;
-	current_angle[2]=20;
-	current_angle[3]=-20;
-	current_angle[4]=30;
-	current_angle[5]=-30;
-	current_angle[6]=40;
-	current_angle[7]=-40;
-	current_angle[8]=50;
-	current_angle[9]=-50;
-}
-
 
  
 void standsteady()
@@ -165,21 +151,54 @@ void standsteadyslow()
 	smooth(8,10,1000);
 }
 
+void usart_init()
+{
+	GPIO_InitTypeDef GPIO_InitStructure;
+	USART_InitTypeDef USART_InitStructure;
+  //设置时钟
+  RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOD|RCC_APB2Periph_AFIO, ENABLE);
+  GPIO_PinRemapConfig(GPIO_Remap_USART2, ENABLE);
+  RCC_APB1PeriphClockCmd(RCC_APB1Periph_USART2, ENABLE);
+  //设置IO口             
+  
+  GPIO_InitStructure.GPIO_Pin = GPIO_Pin_5;
+  GPIO_InitStructure.GPIO_Speed = GPIO_Speed_10MHz;
+  GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF_PP;
+  GPIO_Init(GPIOD, &GPIO_InitStructure);
+  
+  GPIO_InitStructure.GPIO_Pin = GPIO_Pin_6;
+  GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IN_FLOATING;
+  GPIO_Init(GPIOD, &GPIO_InitStructure);
+  
+  //设置串口参数
+  USART_InitStructure.USART_BaudRate = 9600;
+  USART_InitStructure.USART_WordLength = USART_WordLength_8b;
+  USART_InitStructure.USART_StopBits = USART_StopBits_1;
+  USART_InitStructure.USART_Parity = USART_Parity_No;
+  USART_InitStructure.USART_HardwareFlowControl = USART_HardwareFlowControl_None;
+  USART_InitStructure.USART_Mode = USART_Mode_Rx | USART_Mode_Tx;
+  USART_Init(USART2, &USART_InitStructure);   //初始化串口
+  USART_Cmd(USART2, ENABLE);
+  USART_ITConfig(USART2,USART_IT_RXNE,ENABLE);
+}
+
+
+
 void bend()
 {
 int i = 3;	
-while(i)
-{	
-	i--;
-    smooth(4,30,1500);
-	smooth(5,-30,1500);
-	delay_quartersecond(8);
-	smooth(7,30,500);
-	smooth(6,-30,500);
-	delay_quartersecond(8);
-	standsteadyslow();
-	delay_quartersecond(8);
-}
+	while(i)
+	{	
+		i--;
+	    smooth(4,30,1500);
+		smooth(5,-30,1500);
+		delay_quartersecond(8);
+		smooth(7,30,500);
+		smooth(6,-30,500);
+		delay_quartersecond(8);
+		standsteadyslow();
+		delay_quartersecond(8);
+	}
 }
 void show()
 {
@@ -211,28 +230,7 @@ void show()
 	delay_quartersecond(8);
 }
 void forward()
-{/*	rough(0,30);
-    delay_quartersecond(12);
-	rough(1,30);
-    delay_quartersecond(12);
-	rough(2,30);
-    delay_quartersecond(12);
-	rough(3,30);
-    delay_quartersecond(12);
-	rough(4,30);
-    delay_quartersecond(12);
-	rough(5,30);
-    delay_quartersecond(12);
-	rough(6,30);
-    delay_quartersecond(12);
-	rough(7,30);
-    delay_quartersecond(12);
-	rough(8,30);
-    delay_quartersecond(12);
-	rough(9,30);
-    delay_quartersecond(12);
-*/
-	//
+{
 		rough(7,15);
 		rough(6,-15);
 		smooth(0,30,500);
@@ -367,29 +365,10 @@ int main(void)
   GPIO_Configuration();
   NVIC_Configuration();
   TIM3_Configuration();
+
+
+  usart_init();	 
   standsteady();
-  delay_quartersecond(12);  
-  forward();
-//  bend();
-//  show();
-  //while(1)
-  //{
-		/*if(p==3000000)
-		{
-			if(sign)
-			{
-				servo_angle[0]=servo_angle[1]=servo_angle[2]=servo_angle[3]=-60;
-				sign=0;
-			}else
-			{
-				servo_angle[0]=servo_angle[1]=servo_angle[2]=servo_angle[3]=0;
-				sign=1;
-			}
-			p=0;
-		}
-		p++;
-		*/
-  //}	  
 }
  
 /**************************************************************************************/
@@ -401,6 +380,8 @@ void RCC_Configuration(void)
 	RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM4, ENABLE);
 	RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM5, ENABLE);
 }
+
+
  
 /**************************************************************************************/
  
@@ -427,6 +408,38 @@ void NVIC_Configuration(void)
    NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0;
    NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
    NVIC_Init(&NVIC_InitStructure);
+
+   NVIC_PriorityGroupConfig(NVIC_PriorityGroup_0); 
+  NVIC_InitStructure.NVIC_IRQChannel = USART2_IRQn;
+  NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0;
+  NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
+  NVIC_Init(&NVIC_InitStructure);
+  
+
+}
+
+
+void USART2_IRQHandler(void) 
+{
+	u16 i;
+	//USART_SendData(USART2,123);  
+    if(USART_GetFlagStatus(USART2,USART_IT_RXNE)==SET) 
+    {   
+        i = USART_ReceiveData(USART2); 
+        USART_SendData(USART2,i); 
+		if(i==0x1F)
+			forward();
+        while(USART_GetFlagStatus(USART2, USART_FLAG_TC) == RESET) 
+        { 
+        }                
+    }
+
+    if(USART_GetITStatus(USART2, USART_IT_RXNE) != RESET) 
+    { 
+        /* Clear the USART1 Receive interrupt */ 
+        USART_ClearITPendingBit(USART2, USART_IT_RXNE);
+
+    }
 
 }
  

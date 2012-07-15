@@ -103,10 +103,10 @@ Options 1,0,0  // Target 'Target 1'
  ADSLDIF ()
  ADSLDDW ()
   OPTDL (SARMCM3.DLL)()(DARMSTM.DLL)(-pSTM32F103ZE)(SARMCM3.DLL)()(TARMSTM.DLL)(-pSTM32F103ZE)
-  OPTDBG 48125,1,()()()()()()()()()() ()()()()
+  OPTDBG 48126,1,()()()()()()()()()() (BIN\UL2CM3.DLL)()()()
  FLASH1 { 9,0,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0 }
  FLASH2 (BIN\UL2CM3.DLL)
- FLASH3 ()
+ FLASH3 ("" ())
  FLASH4 ()
 EndOpt
 
