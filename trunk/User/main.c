@@ -10,6 +10,7 @@ void TIM3_Configuration(void);
 
 u8 forwarding;
 u8 start;
+u8 stopping;
  
  
 volatile float current_angle[10] = {0,0,0,0,0,0,0,0,0,0}; // +/- 90 degrees, use floats for fractional
@@ -21,11 +22,15 @@ u32 left_step[10]={0,0,0,0,0,0,0,0,0};
  
 void TIM3_IRQHandler(void)
 {
-	if(GPIO_ReadInputDataBit(GPIOD,GPIO_Pin_0))
-	{
-		forwarding=1;
-		start=1;
-	}
+		if(GPIO_ReadInputDataBit(GPIOD,GPIO_Pin_1))
+		{
+			forwarding=1;
+			start=1;
+			stopping=1;
+		} 
+	else { stopping=1;forwarding=0;}
+		
+
   if (TIM_GetITStatus(TIM3, TIM_IT_Update) != RESET)
   {
     TIM_ClearITPendingBit(TIM3, TIM_IT_Update);
@@ -46,7 +51,7 @@ void TIM3_IRQHandler(void)
 		current_angle[7]+= delta_angle[7];
 		--left_step[7];
 	}
-    // minimum high of 600 us for -90 degrees, with +90 degrees at 2400 us, 10 us per degree
+    // minimum high of 600 us for -90 Degrees, with +90 degrees at 2400 us, 10 us per degree
     //  timer timebase set to us units to simplify the configuration/math
     TIM3->CCR1 = 600 + ((current_angle[1] + 90) * 10); // where angle is an int -90 to +90 degrees, PC.6
     TIM3->CCR2 = 600 + ((current_angle[3] + 90) * 10); // where angle is an int -90 to +90 degrees, PC.7
@@ -159,6 +164,15 @@ void standsteadyslow()
 	smooth(8,10,1000);
 }
 
+void stop()
+{
+	forwarding=0;
+	if(stopping)
+	{
+		standsteadyslow();
+	}
+}
+
 
 void bend()
 {
@@ -207,6 +221,8 @@ void show()
 }
 void forward()
 {
+		if(forwarding)
+		{
 	if(start)
 	{
 		rough(7,15);
@@ -238,8 +254,7 @@ void forward()
 		//ÖØÐÄ×óÆ«
 		}
 
-		if(forwarding)
-		{
+
 			delay_quartersecond(2);
 			rough(5,80);
 			rough(3,30);
@@ -337,16 +352,24 @@ void forward()
 
 int main(void)
 {
+  stopping=0;
   delay_init(72);
   RCC_Configuration();
   GPIO_Configuration();
   NVIC_Configuration();
   TIM3_Configuration(); 
   standsteady();
+  delay_quartersecond(8);
+  bend();
+  delay_quartersecond(8);
+  standsteadyslow();
   forwarding=0;
   while(1)
   {
   	forward();
+	forward();
+	forward();
+	stop();
   }
 }
  
@@ -354,7 +377,7 @@ int main(void)
  
 void RCC_Configuration(void)
 {
-    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA | RCC_APB2Periph_GPIOB| RCC_APB2Periph_GPIOC |RCC_APB2Periph_GPIOD| RCC_APB2Periph_AFIO, ENABLE);
+    RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA | RCC_APB2Periph_GPIOB| RCC_APB2Periph_GPIOC |RCC_APB2Periph_GPIOD|RCC_APB2Periph_GPIOG| RCC_APB2Periph_AFIO, ENABLE);
     RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM3, ENABLE);
 	RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM4, ENABLE);
 	RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM5, ENABLE);
@@ -423,10 +446,11 @@ void GPIO_Configuration(void)
 	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF_PP;
 	GPIO_Init(GPIOA, &GPIO_InitStructure);
 
-	GPIO_InitStructure.GPIO_Pin =  GPIO_Pin_0;
+	GPIO_InitStructure.GPIO_Pin =   GPIO_Pin_1|GPIO_Pin_0;
  	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
 	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPD;
 	GPIO_Init(GPIOD, &GPIO_InitStructure);
+
 
 
 }
