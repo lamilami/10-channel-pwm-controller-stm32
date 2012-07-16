@@ -7,6 +7,9 @@ void RCC_Configuration(void);
 void GPIO_Configuration(void);
 void NVIC_Configuration(void);
 void TIM3_Configuration(void);
+
+u8 forwarding;
+u8 start;
  
  
 volatile float current_angle[10] = {0,0,0,0,0,0,0,0,0,0}; // +/- 90 degrees, use floats for fractional
@@ -18,6 +21,11 @@ u32 left_step[10]={0,0,0,0,0,0,0,0,0};
  
 void TIM3_IRQHandler(void)
 {
+	if(GPIO_ReadInputDataBit(GPIOD,GPIO_Pin_0))
+	{
+		forwarding=1;
+		start=1;
+	}
   if (TIM_GetITStatus(TIM3, TIM_IT_Update) != RESET)
   {
     TIM_ClearITPendingBit(TIM3, TIM_IT_Update);
@@ -151,38 +159,6 @@ void standsteadyslow()
 	smooth(8,10,1000);
 }
 
-void usart_init()
-{
-	GPIO_InitTypeDef GPIO_InitStructure;
-	USART_InitTypeDef USART_InitStructure;
-  //设置时钟
-  RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOD|RCC_APB2Periph_AFIO, ENABLE);
-  GPIO_PinRemapConfig(GPIO_Remap_USART2, ENABLE);
-  RCC_APB1PeriphClockCmd(RCC_APB1Periph_USART2, ENABLE);
-  //设置IO口             
-  
-  GPIO_InitStructure.GPIO_Pin = GPIO_Pin_5;
-  GPIO_InitStructure.GPIO_Speed = GPIO_Speed_10MHz;
-  GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF_PP;
-  GPIO_Init(GPIOD, &GPIO_InitStructure);
-  
-  GPIO_InitStructure.GPIO_Pin = GPIO_Pin_6;
-  GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IN_FLOATING;
-  GPIO_Init(GPIOD, &GPIO_InitStructure);
-  
-  //设置串口参数
-  USART_InitStructure.USART_BaudRate = 9600;
-  USART_InitStructure.USART_WordLength = USART_WordLength_8b;
-  USART_InitStructure.USART_StopBits = USART_StopBits_1;
-  USART_InitStructure.USART_Parity = USART_Parity_No;
-  USART_InitStructure.USART_HardwareFlowControl = USART_HardwareFlowControl_None;
-  USART_InitStructure.USART_Mode = USART_Mode_Rx | USART_Mode_Tx;
-  USART_Init(USART2, &USART_InitStructure);   //初始化串口
-  USART_Cmd(USART2, ENABLE);
-  USART_ITConfig(USART2,USART_IT_RXNE,ENABLE);
-}
-
-
 
 void bend()
 {
@@ -219,7 +195,7 @@ void show()
 	smooth(2,-30,1500);
 	smooth(6,-70,1500);
 	delay_quartersecond(8);
-	smooth(0,25,1000);
+	smooth(0,25,1000);								
 
 	delay_quartersecond(8);
 	smooth(0,-10,1000);
@@ -231,6 +207,8 @@ void show()
 }
 void forward()
 {
+	if(start)
+	{
 		rough(7,15);
 		rough(6,-15);
 		smooth(0,30,500);
@@ -253,107 +231,106 @@ void forward()
 		delay_quartersecond(8);
 		smooth(0,-15,700);
 		rough(1,-5);
+		start = 0;
 
 		
 		//smooth(3,5,500);
 		//重心左偏
+		}
 
-		while(1)
+		if(forwarding)
 		{
-		delay_quartersecond(2);
-
-
-		rough(5,80);
-		rough(3,30);
-		//蹬腿
-
-		rough(9,-10);	
-		rough(8,10);
-		//扭腰
-
-		rough(6,-20);
-		rough(4,-5);
-		rough(2,5);
-		//左腿立直
-
-
-		
-
-		delay_quartersecond(1);
-		rough(7,55);
-		delay_quartersecond(1);
-		rough(3,-20);
-		rough(9,-10);
-		rough(5,30);
-		delay_quartersecond(1);
-		rough(4,20);
-
- 		//rough(7,30);
-		rough(3,-0);
-		delay_quartersecond(1);
-		smooth(0,8,1000);
-		smooth(1,5,1000);
-
-		//第二步
-		delay_quartersecond(8);
-
-
-		//重心左偏
-
+			delay_quartersecond(2);
+			rough(5,80);
+			rough(3,30);
+			//蹬腿
+			rough(9,-10);	
+			rough(8,10);
+			//扭腰
 	
-		smooth(0,0,700);
-		rough(5,10);
-		delay_quartersecond(2);
-
-   		rough(7,40);
-		rough(8,10);
-		rough(9,-10);
-		rough(0,-5);
-
-		delay_quartersecond(1);
-
-		rough(4,-85);
-		rough(2,0);
-		rough(9,-10);
-		rough(8,10);
-		rough(6,-55);
-
-
-		//蹬腿
-		delay_quartersecond(2);
-		rough(9,-10);
-
-		rough(7,0);	
-		rough(8,20);
-
-		delay_quartersecond(2);
-
-		rough(5,5);
-		rough(7,0);
-
-		//delay_quartersecond(1);
-
-		rough(1,9);
-
-		rough(0,5);
-
-		rough(4,-30);
-		smooth(2,10,500);
-		delay_quartersecond(2);
-		smooth(3,20,500);
-		delay_quartersecond(4);
-
-		smooth(1,-15,700);
-		rough(0,-5);
-		//rough(5,-20);
-		delay_quartersecond(12);
-		rough(7,20);
-		rough(6,-70);
-		rough(0,-15);
-		rough(1,-5);
-		rough(5,-30);
-		rough(4,-40);
-		 }
+			rough(6,-20);
+			rough(4,-5);
+			rough(2,5);
+			//左腿立直
+	
+	
+			
+	
+			delay_quartersecond(1);
+			rough(7,55);
+			delay_quartersecond(1);
+			rough(3,-20);
+			rough(9,-10);
+			rough(5,30);
+			delay_quartersecond(1);
+			rough(4,20);
+	
+	 		//rough(7,30);
+			rough(3,-0);
+			delay_quartersecond(1);
+			smooth(0,8,1000);
+			smooth(1,5,1000);
+	
+			//第二步
+			delay_quartersecond(8);
+	
+	
+			//重心左偏
+	
+		
+			smooth(0,0,700);
+			rough(5,10);
+			delay_quartersecond(2);
+	
+	   		rough(7,40);
+			rough(8,10);
+			rough(9,-10);
+			rough(0,-5);
+	
+			delay_quartersecond(1);
+	
+			rough(4,-85);
+			rough(2,0);
+			rough(9,-10);
+			rough(8,10);
+			rough(6,-55);
+	
+	
+			//蹬腿
+			delay_quartersecond(2);
+			rough(9,-10);
+	
+			rough(7,0);	
+			rough(8,20);
+	
+			delay_quartersecond(2);
+	
+			rough(5,5);
+			rough(7,0);
+	
+			//delay_quartersecond(1);
+	
+			rough(1,9);
+	
+			rough(0,5);
+	
+			rough(4,-30);
+			smooth(2,10,500);
+			delay_quartersecond(2);
+			smooth(3,20,500);
+			delay_quartersecond(4);
+	
+			smooth(1,-15,700);
+			rough(0,-5);
+			//rough(5,-20);
+			delay_quartersecond(12);
+			rough(7,20);
+			rough(6,-70);
+			rough(0,-15);
+			rough(1,-5);
+			rough(5,-30);
+			rough(4,-40);
+	}
 }
 
 
@@ -364,11 +341,13 @@ int main(void)
   RCC_Configuration();
   GPIO_Configuration();
   NVIC_Configuration();
-  TIM3_Configuration();
-
-
-  usart_init();	 
+  TIM3_Configuration(); 
   standsteady();
+  forwarding=0;
+  while(1)
+  {
+  	forward();
+  }
 }
  
 /**************************************************************************************/
@@ -408,39 +387,6 @@ void NVIC_Configuration(void)
    NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0;
    NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
    NVIC_Init(&NVIC_InitStructure);
-
-   NVIC_PriorityGroupConfig(NVIC_PriorityGroup_0); 
-  NVIC_InitStructure.NVIC_IRQChannel = USART2_IRQn;
-  NVIC_InitStructure.NVIC_IRQChannelSubPriority = 0;
-  NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
-  NVIC_Init(&NVIC_InitStructure);
-  
-
-}
-
-
-void USART2_IRQHandler(void) 
-{
-	u16 i;
-	//USART_SendData(USART2,123);  
-    if(USART_GetFlagStatus(USART2,USART_IT_RXNE)==SET) 
-    {   
-        i = USART_ReceiveData(USART2); 
-        USART_SendData(USART2,i); 
-		if(i==0x1F)
-			forward();
-        while(USART_GetFlagStatus(USART2, USART_FLAG_TC) == RESET) 
-        { 
-        }                
-    }
-
-    if(USART_GetITStatus(USART2, USART_IT_RXNE) != RESET) 
-    { 
-        /* Clear the USART1 Receive interrupt */ 
-        USART_ClearITPendingBit(USART2, USART_IT_RXNE);
-
-    }
-
 }
  
 /**************************************************************************************/
@@ -476,6 +422,11 @@ void GPIO_Configuration(void)
  	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
 	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_AF_PP;
 	GPIO_Init(GPIOA, &GPIO_InitStructure);
+
+	GPIO_InitStructure.GPIO_Pin =  GPIO_Pin_0;
+ 	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_IPD;
+	GPIO_Init(GPIOD, &GPIO_InitStructure);
 
 
 }

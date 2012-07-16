@@ -19,7 +19,7 @@
 ### ADS-LD Output File: 'robot.axf'
 ### ADS-LD Command File: 'robot.lnp'
 ### Checking for dirty Components...
-### Creating CmdFile 'robot.lnp', Handle=0x00000548
+### Creating CmdFile 'robot.lnp', Handle=0x0000028C
 ### Writing '.lnp' file
 ### ADS-LD Command file 'robot.lnp' is ready.
 ### ADS-LD: About to start ADS-LD Thread.
