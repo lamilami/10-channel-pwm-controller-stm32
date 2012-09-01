@@ -1,4 +1,4 @@
-// STM32 4-channel Servo Demo for 24 MHz VL Discovery - sourcer32@gmail.com
+
  
 #include "stm32F10x.h"
 #include "delay.h"
@@ -243,7 +243,7 @@ void forward()
 
 		rough(9,-10);
 		rough(8,10);
-		//初始半步
+		//鲁玫脢录掳毛虏陆
 		delay_quartersecond(8);
 		smooth(0,-15,700);
 		rough(1,-5);
@@ -251,22 +251,22 @@ void forward()
 
 		
 		//smooth(3,5,500);
-		//重心左偏
+		//脰脴脨脛脳贸脝芦
 		}
 
 
 			delay_quartersecond(2);
 			rough(5,80);
 			rough(3,30);
-			//蹬腿
+			//碌脜脥脠
 			rough(9,-10);	
 			rough(8,10);
-			//扭腰
+			//脜陇脩眉
 	
 			rough(6,-20);
 			rough(4,-5);
 			rough(2,5);
-			//左腿立直
+			//脳贸脥脠脕垄脰卤
 	
 	
 			
@@ -286,11 +286,11 @@ void forward()
 			smooth(0,8,1000);
 			smooth(1,5,1000);
 	
-			//第二步
+			//碌脷露镁虏陆
 			delay_quartersecond(8);
 	
 	
-			//重心左偏
+			//脰脴脨脛脳贸脝芦
 	
 		
 			smooth(0,0,700);
@@ -311,7 +311,7 @@ void forward()
 			rough(6,-55);
 	
 	
-			//蹬腿
+			//碌脜脥脠
 			delay_quartersecond(2);
 			rough(9,-10);
 	
